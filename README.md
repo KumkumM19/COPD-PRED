@@ -2,7 +2,7 @@
 
 This is a full-stack web application project consisting of a backend server and a frontend client. The project appears to be using technologies such as Python for the backend, JavaScript (React.js) for the frontend, and potentially a machine learning component for prediction tasks.
 
-> 🧠 **Note:** This was a **group project** involving 4 members.  
+> **Note:** This was a **group project** involving 4 members.  
 > I was solely responsible for designing and implementing the **machine learning models** that power the prediction functionality. The frontend and backend web infrastructure were developed by the other team members.
 
 ---
