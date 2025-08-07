@@ -2,6 +2,11 @@
 
 This is a full-stack web application project consisting of a backend server and a frontend client. The project appears to be using technologies such as Python for the backend, JavaScript (React.js) for the frontend, and potentially a machine learning component for prediction tasks.
 
+> 🧠 **Note:** This was a **group project** involving 4 members.  
+> I was solely responsible for designing and implementing the **machine learning models** that power the prediction functionality. The frontend and backend web infrastructure were developed by the other team members.
+
+---
+
 ## Repository Structure
 
 - `backend/`: Contains the server-side code and related files.
@@ -25,6 +30,16 @@ This is a full-stack web application project consisting of a backend server and 
 - Home page
 - Prediction page (COPD prediction using a machine learning model)
 - Result page (to display prediction results)
+
+## 🧠 Machine Learning Component (My Contribution)
+
+- Developed end-to-end COPD prediction pipeline using Python.
+- Performed in-depth reasearch on COPD parameters.
+- Performed in-depth visualization to obtain bettter understanding.
+- Performed data cleaning, feature engineering, model training.
+- Tuned hyperparameters and selected the best performing model.
+
+---
 
 ## Setup Environment Variables
 
