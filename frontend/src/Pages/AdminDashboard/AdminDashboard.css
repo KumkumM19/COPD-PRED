@@ -1,0 +1,168 @@
+.createAccAndchartContainer {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+.createAccount {
+  flex: 1;
+  height: 100%;
+  padding: 0 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.createAccount > a{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex: 1;
+  padding: 2.75rem;
+  background-color:#F2F7F7;
+  border-radius: 1rem;
+  color: #006965;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.totalPatients{
+  width: 100%;
+  height: 100%;
+  padding: 2.2rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  background-color: #F2F7F7;
+  border-radius: 1rem;
+  color: #006965;
+}
+
+.totalPatients>span{
+  font-size: 1.5rem;
+}
+
+.createAccount > a:hover{
+  background-color: rgba(0, 105, 101, 0.2);
+}
+
+
+.charts {
+  flex: 2;
+}
+
+.records {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color:#F2F7F7;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.dataHeaders,
+.dataRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  color: #006965;
+  font-size: 14px;
+}
+
+.dataHeaders {
+  border-bottom: 1px solid #006965;
+  font-weight: bold;
+}
+
+.dataRow {
+  background-color: white;
+  border: 1px solid #006965;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.dataHeaderValue,
+.dataValue {
+  flex: 1;
+  text-align: center;
+}
+
+.dataHeaderValue {
+  padding: 0.5rem 0;
+}
+
+.dataValue {
+  padding: 0.5rem 0;
+}
+
+/* Assigning fixed width to ensure consistent alignment */
+.dataHeaders div:nth-child(1),
+.dataRow div:nth-child(1) {
+  width: 10%;
+}
+.dataHeaders div:nth-child(2),
+.dataRow div:nth-child(2) {
+  width: 20%;
+}
+.dataHeaders div:nth-child(3),
+.dataRow div:nth-child(3) {
+  width: 15%;
+}
+.dataHeaders div:nth-child(4),
+.dataRow div:nth-child(4) {
+  width: 20%;
+}
+.dataHeaders div:nth-child(5),
+.dataRow div:nth-child(5) {
+  width: 10%;
+}
+.dataHeaders div:nth-child(6),
+.dataRow div:nth-child(6) {
+  width: 10%;
+}
+.dataHeaders div:nth-child(7),
+.dataRow div:nth-child(7) {
+  width: 15%;
+}
+.dataHeaders div:nth-child(8),
+.dataRow div:nth-child(8) {
+  width: 10%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: #006965;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.pagination > button {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #006965;
+  background-color: #006965;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: rgba(0, 105, 101, 0.1);
+  color: #006965;
+  cursor: not-allowed;
+}

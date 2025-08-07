@@ -1,0 +1,297 @@
+.result-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.result-bg-box {
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    height: auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 5vh;
+}
+
+
+.result-page-heading {
+    margin-top: 8vh;
+    padding-top: 3rem;
+    padding-left: 2.6rem;
+    color: #006965;
+    text-transform: uppercase;
+    /* text-align: center; */
+}
+
+
+.header{
+    width: 90%;
+}
+.result-result-box {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid blue; */
+
+}
+
+.result-top-left-box {
+    height: 100%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+    color: #006965;
+    background-color: #F2F7F7;
+    border-radius: 1rem;
+}
+
+.result-content-box {
+    height: 20vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid green; */
+
+}
+
+.result-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* border: 2px solid red; */
+
+}
+
+.bold {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.result-title-2 {
+    font-size: 1.5rem;
+    /* border: 2px solid black; */
+
+}
+
+.pred-table {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    font-size: 1.25rem;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.pred-table-head-row {
+    background-color: #006965;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pred-table-row-box {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #006965;
+    font-weight: 600;
+    /* border: 2px solid yellow; */
+
+}
+
+.pred-table-row {
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #006965;
+    /* border: 2px solid black; */
+}
+
+.pred-table-row>p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.F2F7F7-bg {
+    background-color: #F2F7F7;
+}
+
+.comments{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.commentHeader{
+    height: 100%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #006965;
+    background-color: #F2F7F7;
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+     font-family: "Rajdhani", sans-serif;
+}
+
+.commentForm{
+    height: 100%;
+    width: 76.5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.commentForm > input{
+    flex: 4;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #F2F7F7;
+    color: #006965;
+}
+
+.commentForm > input::placeholder{
+    color: rgba(0, 105, 101, 0.5);
+    font-size: 0.75rem;
+    font-weight: 400;
+    transform: capitalize;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.commentForm > button{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    background-color: #006965;
+    color: #F2F7F7;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.result-patient-information-head {
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 5vh;
+    padding: 0;
+    color: #006965;
+    text-transform: uppercase;
+    /* border: 2px solid yellow; */
+    /* text-align: center; */
+}
+
+.result-patient-information-head h1 {
+    margin: 0;
+}
+
+.result-patient-information {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.result-patient-info-top-row {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.result-patient-info-input-box {
+    /* width: 100%; */
+    height: 10vh;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    font-size: 1.1rem;
+    /* padding-left: 10px; */
+    font-family: "Rajdhani", sans-serif;
+}
+
+.result-patient-info-heading {
+    font-weight: 700;
+    color: #006965;
+    text-transform: uppercase;
+}
+
+.result-patient-info-inputs {
+    font-size: 1rem;
+    background-color: #F2F7F7;
+    /* border: 1px solid #006965; */
+    color: #006965;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    width: 20vw;
+    height: 4vh;
+    border-radius: 0.25rem;
+}
+
+.result-patient-info-inputs::placeholder {
+    color: #006965;
+    font-size: 0.75rem;
+    /* padding-left: 0.5vw; */
+    font-weight: 400;
+    transform: capitalize;
+    text-transform: uppercase;
+}

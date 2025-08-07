@@ -1,0 +1,224 @@
+.SignupPage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.highlight {
+  color: #006965;
+}
+
+.left {
+  width: 50%;
+  background-color: #006965;
+  background-image: url("./Assets/images/login-bg.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-novelty {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+  /* border: 2px solid red; */
+}
+
+.signup-novely-box {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 2px solid black; */
+}
+
+.signup-novelty-box-left {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+}
+
+.signup-novelty-box-right {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  /* border: 2px solid blue; */
+  color: white;
+}
+
+.right {
+  width: 50%;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 2rem;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.subheading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signupForm {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.signupForm input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background: rgba(0, 105, 101, 0.1);
+  border: none;
+  color: #006965;
+  outline: none;
+}
+
+.nameRoleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.role > select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background: rgba(0, 105, 101, 0.1);
+  border: none;
+  color: #006965;
+  outline: none;
+}
+
+.signupForm input::placeholder {
+  color: #006965;
+  opacity: 0.3;
+}
+
+.forgotPassword {
+  width: 100%;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgotPassword > a {
+  color: #006965;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.passwordContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.password {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.passwordInputWrapper {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.togglePasswordIcon {
+  cursor: pointer;
+  background-color: rgba(0, 105, 101, 0.1);
+  padding: 6px;
+  border: 1px solid #006965;
+  background-color: white;
+  color: #006965;
+  border-radius: 5px;
+}
+
+.generatePassword {
+  flex: 1;
+}
+
+.generatePassword > button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #006965;
+  background-color: white;
+  color: #006965;
+  margin-top: 28px;
+  cursor: pointer;
+}
+
+.signUpBtn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #006965;
+  background-color: #006965;
+  color: white;
+  cursor: pointer;
+}
+
+.ask-login {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 12px;
+}
+
+.signUpGoogle {
+  margin-top: 2rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.google {
+  width: 100%;
+  background-color: white;
+  color: rgb(176, 176, 176);
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.google img {
+  width: 20px;
+}

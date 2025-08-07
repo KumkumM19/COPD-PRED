@@ -1,0 +1,15 @@
+.pastPredictions {
+  margin-top: 4.5rem;
+  display: flex;
+  height: 100%;
+  padding: 1rem;
+  gap: 1rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+
+.patients{
+    color: #006965;
+}

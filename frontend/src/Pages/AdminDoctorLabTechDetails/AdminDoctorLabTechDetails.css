@@ -1,0 +1,90 @@
+.admin-doctor-lab-tech-details-header {
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem;
+  gap: 1rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.user-details-form {
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #e8f2f2;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+    align-items: center;
+}
+
+.user-details-form > form {
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.user-details-form > form > label {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.user-details-form > form > label > input {
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #005d59;
+  background-color: #f9fbfb;
+  color: #005d59;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.user-details-form > form > label > input:disabled {
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #005d59;
+  background-color: #f9fbfb;
+  color: #005d59;
+  width: 100%;
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.user-details-form > form > label > input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.user-details-form > form > label > input[type="checkbox"]:checked {
+  background-color: #006965;
+}
+
+.user-details-form > form > button {
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #006965;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.user-details-form > button {
+  width: 96%;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #006965;
+  color: white;
+  cursor: pointer;
+}
