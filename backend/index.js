@@ -17,8 +17,7 @@ const app = express();
 
 const Port = process.env.PORT || 3000;
 const CONNECTION_URL =
-  process.env.CONNECTION_URL ||
-  "mongodb+srv://pranyukti:crN7FaKpBMd8pLlj@pranyukti.xg1hw.mongodb.net/?retryWrites=true&w=majority&appName=pranyukti";
+  process.env.CONNECTION_URL
 app.use(cors());
 app.use(express.json());
 
